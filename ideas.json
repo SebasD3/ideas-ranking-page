@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "Solar-Powered Charger",
+    "author": "Alice",
+    "votes": "30"
+  },
+  {
+    "id": "2",
+    "title": "Homework Helper App",
+    "author": "Bob",
+    "votes": "20"
+  },
+  {
+    "id": "3",
+    "title": "Smart Mirror",
+    "author": "Charlie",
+    "votes": "40"
+  }
+]

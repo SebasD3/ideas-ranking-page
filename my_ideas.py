@@ -8,22 +8,49 @@ with open("ideas.txt", "a") as f:
 with open("ideas.txt", "r") as f:
   print(f.read())
 
-ideas = [{
-    "id": 1,
-    "title": "Solar-Powered Charger",
+ideas =[{
+    "id": "1",
+    "title": "Cafeteria screens",
     "author": "Alice",
-    "votes": 0
-}, {
-    "id": 2,
-    "title": "Homework Helper App",
+    "votes": "30"
+  },
+  {
+    "id": "2",
+    "title": "School event tracker",
     "author": "Bob",
-    "votes": 0
-}, {
-    "id": 3,
-    "title": "Smart Mirror",
+    "votes": "20"
+  },
+  {
+    "id": "3",
+    "title": "Digital suggestion box",
     "author": "Charlie",
-    "votes": 0
-}]
+    "votes": "40"
+  },
+   {
+    "id": "4",
+    "title": "Digital boards instead of whiteboards",
+    "author": "Charlie",
+    "votes": "29"
+  },
+  {
+    "id": "5",
+    "title": "Digital Attendance System",
+    "author": "Sebas",
+    "votes": "26"
+  },
+  {
+    "id": "6",
+    "title": "Automatic sprinklers",
+    "author": "Sebas",
+    "votes": "8"
+  },
+  {
+    "id": "7",
+    "title": "Dismissal screens",
+    "author": "Sebas",
+    "votes": "72"
+  },
+]
 
 with open("ideas.csv", "w", newline="") as f:
   writer = csv.DictWriter(f, fieldnames=["id", "title", "author", "votes"])

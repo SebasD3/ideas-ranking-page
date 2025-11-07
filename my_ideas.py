@@ -30,7 +30,7 @@ ideas =[
   {
     "id": "4",
     "title": "Digital boards instead of whiteboards",
-    "author": "Charlie",
+    "author": "Dylan",
     "votes": "29"
   },
   {

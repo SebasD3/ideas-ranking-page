@@ -8,7 +8,8 @@ with open("ideas.txt", "a") as f:
 with open("ideas.txt", "r") as f:
   print(f.read())
 
-ideas =[{
+ideas =[
+  {
     "id": "1",
     "title": "Cafeteria screens",
     "author": "Alice",

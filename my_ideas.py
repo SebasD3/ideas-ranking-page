@@ -41,13 +41,13 @@ ideas =[{
   {
     "id": "6",
     "title": "Automatic sprinklers",
-    "author": "Sebas",
+    "author": "Lana",
     "votes": "8"
   },
   {
     "id": "7",
     "title": "Dismissal screens",
-    "author": "Sebas",
+    "author": "Pablo",
     "votes": "72"
   },
 ]
